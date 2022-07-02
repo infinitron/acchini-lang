@@ -1,25 +1,25 @@
 export const TokenTypes = {
   NULL_TYPE: null,
 
-  HI_BHAI_TYPE: "hi bhai",
+  HI_BHAI_TYPE: "hi acchini",
 
-  BYE_BHAI_TYPE: "bye bhai",
+  BYE_BHAI_TYPE: "bye acchini",
 
-  BOL_BHAI_TYPE: "bol bhai",
+  BOL_BHAI_TYPE: "acchini cheppu",
 
-  BHAI_YE_HAI_TYPE: "bhai ye hai",
+  BHAI_YE_HAI_TYPE: "acchini idi",
 
-  AGAR_BHAI: "agar bhai",
+  AGAR_BHAI: "acchini aithe",
 
-  WARNA_BHAI: "warna bhai",
+  WARNA_BHAI: "acchini kakapothe",
 
-  NAHI_TO_BHAI: "nahi to bhai",
+  NAHI_TO_BHAI: "acchini lekapothe",
 
-  JAB_TAK_BHAI: "jab tak bhai",
+  JAB_TAK_BHAI: "acchini eppativarkaithe",
 
-  BAS_KAR_BHAI: "bas kar bhai",
+  BAS_KAR_BHAI: "chaalu acchini",
 
-  AGLA_DEKH_BHAI: "agla dekh bhai",
+  AGLA_DEKH_BHAI: "tarvatha chudu acchini",
 
   NALLA_TYPE: "NALLA",
 
@@ -79,24 +79,24 @@ export const SPEC = [
   { regex: /^,/, tokenType: TokenTypes.COMMA_TYPE },
 
   //Keywords
-  { regex: /^\bhi bhai\b/, tokenType: TokenTypes.HI_BHAI_TYPE },
-  { regex: /^\bbye bhai\b/, tokenType: TokenTypes.BYE_BHAI_TYPE },
-  { regex: /^\bbol bhai\b/, tokenType: TokenTypes.BOL_BHAI_TYPE },
-  { regex: /^\bbhai ye hai\b/, tokenType: TokenTypes.BHAI_YE_HAI_TYPE },
-  { regex: /^\bagar bhai\b/, tokenType: TokenTypes.AGAR_BHAI },
-  { regex: /^\bnahi to bhai\b/, tokenType: TokenTypes.NAHI_TO_BHAI },
-  { regex: /^\bwarna bhai\b/, tokenType: TokenTypes.WARNA_BHAI },
+  { regex: /^\bhi acchini\b/, tokenType: TokenTypes.HI_BHAI_TYPE },
+  { regex: /^\bbye acchini\b/, tokenType: TokenTypes.BYE_BHAI_TYPE },
+  { regex: /^\bacchini cheppu\b/, tokenType: TokenTypes.BOL_BHAI_TYPE },
+  { regex: /^\bacchini idi\b/, tokenType: TokenTypes.BHAI_YE_HAI_TYPE },
+  { regex: /^\bacchini aithe\b/, tokenType: TokenTypes.AGAR_BHAI },
+  { regex: /^\bacchini lekapothe\b/, tokenType: TokenTypes.NAHI_TO_BHAI },
+  { regex: /^\bacchini kakapothe\b/, tokenType: TokenTypes.WARNA_BHAI },
   { regex: /^\bnalla\b/, tokenType: TokenTypes.NALLA_TYPE },
-  { regex: /^\bjab tak bhai\b/, tokenType: TokenTypes.JAB_TAK_BHAI },
-  { regex: /^\bbas kar bhai\b/, tokenType: TokenTypes.BAS_KAR_BHAI },
-  { regex: /^\bagla dekh bhai\b/, tokenType: TokenTypes.AGLA_DEKH_BHAI },
+  { regex: /^\bacchini eppativarkaithe\b/, tokenType: TokenTypes.JAB_TAK_BHAI },
+  { regex: /^\bchaalu acchini\b/, tokenType: TokenTypes.BAS_KAR_BHAI },
+  { regex: /^\btarvatha chudu acchini\b/, tokenType: TokenTypes.AGLA_DEKH_BHAI },
 
   // Number
   { regex: /^[+-]?([\d]*[.])?[\d]+/, tokenType: TokenTypes.NUMBER_TYPE },
 
   // Boolean
-  { regex: /^\bsahi\b/, tokenType: TokenTypes.BOOLEAN_TYPE },
-  { regex: /^\bgalat\b/, tokenType: TokenTypes.BOOLEAN_TYPE },
+  { regex: /^\bauvunu\b/, tokenType: TokenTypes.BOOLEAN_TYPE },
+  { regex: /^\bkaadu\b/, tokenType: TokenTypes.BOOLEAN_TYPE },
 
   // Identifier
   { regex: /^\w+/, tokenType: TokenTypes.IDENTIFIER_TYPE },

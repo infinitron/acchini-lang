@@ -1,4 +1,4 @@
-import { TokenTypes } from "../../constants/bhaiLangSpec";
+import { TokenTypes } from "../../constants/acchiniLangSpec";
 import { Token, Tokenizer } from "../tokenizer/types";
 
 
@@ -21,7 +21,7 @@ export default class TokenExecutor {
 
     if (token.type !== tokenType) {
       throw new SyntaxError(
-        `kya kar rha hai tu??...Unexpected token: "${token.value}", expected : "${tokenType}"`
+        `em chestunnav nuvvu??...Unexpected token: "${token.value}", expected : "${tokenType}"`
       );
     }
 

@@ -1,7 +1,7 @@
 {
-  "name": "bhai-lang-interpreter",
+  "name": "acchini-lang-interpreter",
   "version": "0.0.1",
-  "description": "Interpreter for bhai-lang",
+  "description": "Interpreter for acchini-lang",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",

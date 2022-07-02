@@ -1,5 +1,5 @@
 import Visitor from ".";
-import { ASTNode } from "bhai-lang-parser";
+import { ASTNode } from "acchini-lang-parser";
 
 import RuntimeException from "../../exceptions/runtimeException";
 import InterpreterModule from "../../module/interpreterModule";
@@ -26,7 +26,7 @@ export default class WhileStatement implements Visitor {
         }
 
         if (executions > 5000) {
-          throw new RuntimeException("Bohot jyada hi chale jaa rha hai loop");
+          throw new RuntimeException("chaala saarlu nadunstundi ee loop");
         }
 
 

@@ -45,7 +45,7 @@ export default class Scope {
       return this._parentScope.get(identifier);
     }
 
-    throw new RuntimeException(`Variable "${identifier}" bana to le pehle.`);
+    throw new RuntimeException(`Mundu Variable "${identifier}" create chey`);
   }
 
   assign(identifier: string, value: unknown) {
@@ -60,14 +60,14 @@ export default class Scope {
     }
 
     throw new RuntimeException(
-      `Variable "${identifier}" bana to le pehle fir assign karna.`
+      `Mundu "${identifier}" create chesi tarvatha assign chey.`
     );
   }
 
   declare(identifier: string, value: unknown) {
     if (this._variables.has(identifier)) {
       throw new RuntimeException(
-        `Variable "${identifier}" pehle se exist karta hai bhai. Check karle.`
+        `Acchini "${identifier}" munde tayarai kurchundi. Check chesko.`
       );
     }
 

@@ -1,5 +1,5 @@
-import { TokenTypes } from "../../../constants/bhaiLangSpec";
-import BhaiLangModule from "../../../module/bhaiLangModule";
+import { TokenTypes } from "../../../constants/acchiniLangSpec";
+import BhaiLangModule from "../../../module/acchiniLangModule";
 import { Token } from "../../tokenizer/types";
 import TokenExecutor from "../tokenExecutor";
 import { ASTNode } from "../types/nodeTypes";

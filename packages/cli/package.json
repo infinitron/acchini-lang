@@ -1,11 +1,11 @@
 {
-  "name": "bhailang",
+  "name": "acchini-lang",
   "version": "0.1.0",
   "description": "CLI for bhai-lang",
   "source": "src/index.ts",
   "main": "bin/index.js",
   "bin": {
-    "bhailang": "./bin/index.js"
+    "acchini-lang": "./bin/index.js"
   },
   "files": [
     "bin"
@@ -21,7 +21,7 @@
   "keywords": [
     "programming",
     "language",
-    "bhai-lang",
+    "acchini-lang",
     "bl",
     "javascript",
     "typescript"

@@ -1,5 +1,5 @@
 {
-  "name": "bhai-lang",
+  "name": "acchini-lang",
   "version": "0.0.1",
   "private": true,
   "workspaces": [
@@ -21,6 +21,7 @@
     "typescript": "^4.5.4"
   },
   "keywords": [
+    "acchini-lang",
     "bhai-lang",
     "programming language",
     "compiler",

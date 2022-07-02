@@ -1,5 +1,5 @@
-import { TokenTypes } from "../../constants/bhaiLangSpec";
-import BhaiLangModule from "../../module/bhaiLangModule";
+import { TokenTypes } from "../../constants/acchiniLangSpec";
+import acchiniLangModule from "../../module/acchiniLangModule";
 
 import Statement from "./statement";
 import TokenExecutor from "./tokenExecutor";
@@ -20,7 +20,7 @@ export default class StatementList {
       this._tokenExecutor.eatTokenAndForwardLookahead(lookahead.type);
     }
 
-    return BhaiLangModule.getInitStatement().getStatement();
+    return acchiniLangModule.getInitStatement().getStatement();
   }
 
   getStatementList(stopLookaheadType: string) {
