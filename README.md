@@ -8,7 +8,7 @@
   
 </p>
 <p align="center">
-  This is official repository for bhai-lang.<br><br>
+  This is official repository for acchini-lang.<br><br>
   <b>Bhai lang is a toy programming language written in Typescript.</b>
 </p>
 <br>
@@ -28,69 +28,69 @@ npm i -g bhailang
 You can also try out your code on <a href="https://bhailang.js.org/#playground">Bhai Lang PlayGround</a></h4>
 
 ```
-hi bhai
-  bol bhai "Hello bhai";
-bye bhai
+hi acchini
+  acchini cheppu "Hello acchini";
+bye acchini
 
 ```
 
 <h4 align="left">Run</h4>
 
 ```
-bhailang test.bhai
+acchinilang test.acchini
 ```
 
 <h4 align="left">Output</h4>
 
 ```
-hello bhai
+hello acchini
 ```
 
 <h2 align="center">Documentation</h2>
 
 <h3 align="center">General</h3>
-<p align="center"><code>hi bhai</code> is the entrypoint for the program and all program must end with <code>bye bhai</code>. Anything outside of it will be ignored.</p>
+<p align="center"><code>hi acchini</code> is the entrypoint for the program and all program must end with <code>bye acchini</code>. Anything outside of it will be ignored.</p>
 
 ```
 
 This will be ignored
 
-hi bhai
+hi acchini
 // Write code here
-bye bhai
+bye acchini
 
 This too
 ```
 
 <h3 align="center">Variables</h3>
-<p align="center">Variables can be declared using <code>bhai ye hai</code>.</p>
+<p align="center">Variables can be declared using <code>acchini idi</code>.</p>
 
 ```
 
-hi bhai
-  bhai ye hai a = 10;
-  bhai ye hai b = "two";
-  bhai ye hai c = 15;
+hi acchini
+  acchini idi a = 10;
+  acchini idi b = "two";
+  acchini idi c = 15;
   a = a + 1;
   b = 21;
   c *= 2;
-bye bhai
+bye acchini
 ```
 
 <h3 align="center">Types</h3>
-<p align="center">Numbers and strings are like other languages. Null values can be denoted using <code>nalla</code>. <code>sahi</code> and <code>galat</code> are the boolean values.</p>
+<p align="center">Numbers and strings are like other languages. Null values can be denoted using <code>nalla</code>. <code>auvnu</code> and <code>kaadu</code> are the boolean values.</p>
 
 ```
 
-hi bhai
-  bhai ye hai a = 10;
-  bhai ye hai b = 10 + (15*20);
-  bhai ye hai c = "two";
-  bhai ye hai d = 'ok';
-  bhai ye hai e = nalla;
-  bhai ye hai f = sahi;
-  bhai ye hai g = galat;
-bye bhai
+hi acchini
+  acchini idi a = 10;
+  acchini idi b = 10 + (15*20);
+  acchini idi c = "two";
+  acchini idi d = 'ok';
+  acchini idi e = nalla;
+  acchini idi f = auvnu;
+  acchini idi g = kaadu;
+bye acchini
 ```
 
 <h3 align="center">Built-ins</h3>
@@ -98,15 +98,15 @@ bye bhai
 
 ```
 
-hi bhai
-  bol bhai "Hello World";
-  bhai ye hai a = 10;
+hi acchini
+  acchini cheppu "Hello World";
+  acchini idi a = 10;
   {
-    bhai ye hai b = 20;
-    bol bhai a + b;
+    acchini idi b = 20;
+    acchini cheppu a + b;
   }
-  bol bhai 5, 'ok', nalla , sahi , galat;
-bye bhai
+  acchini cheppu 5, 'ok', nalla , auvnu , kaadu;
+bye acchini
 ```
 
 <h3 align="center">Conditionals</h3>
@@ -114,16 +114,16 @@ bye bhai
 
 ```
 
-hi bhai
-  bhai ye hai a = 10;
-  agar bhai (a < 20) {
-    bol bhai "a is less than 20";
-  } nahi to bhai ( a < 25 ) {
-    bol bhai "a is less than 25";
-  } warna bhai {
-    bol bhai "a is greater than or equal to 25";
+hi acchini
+  acchini idi a = 10;
+  acchini aithe (a < 20) {
+    acchini cheppu "a is less than 20";
+  } acchini lekapothe ( a < 25 ) {
+    acchini cheppu "a is less than 25";
+  } kakapothe acchini {
+    acchini cheppu "a is greater than or equal to 25";
   }
-bye bhai
+bye acchini
 ```
 
 <h3 align="center">Loops</h3>
@@ -132,25 +132,23 @@ bye bhai
 
 ```
 
-hi bhai
-  bhai ye hai a = 0;
-  jab tak bhai (a < 10) {
+hi acchini
+  acchini idi a = 0;
+  acchini eppativarakaithe (a < 10) {
    a += 1;
-   agar bhai (a == 5) {
-    bol bhai "andar se bol bhai ", a;
-    agla dekh bhai;
+   acchini aithe (a == 5) {
+    acchini cheppu "andar se bol acchini ", a;
+    tarvatha chudu acchini;
    }
-   agar bhai (a == 6) {
-    bas kar bhai;
+   acchini aithe (a == 6) {
+    chaalu acchini;
    }
-   bol bhai a;
+   acchini cheppu a;
   }
-  bol bhai "done";
-bye bhai
+  acchini cheppu "done";
+bye acchini
 ```
 
-<h2 align="center">Development</h2>
-<p align="center">You can explore abstract syntax tree(AST) of bhailang <a href="https://bhailang-ast.netlify.app/" target="_blank">here</a>.</p>
 
 
 
