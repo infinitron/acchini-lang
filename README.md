@@ -94,7 +94,7 @@ bye acchini
 ```
 
 <h3 align="center">Built-ins</h3>
-<p align="center">Use <code>bol bhai</code> to print anything to console.</p>
+<p align="center">Use <code>acchini cheppu</code> to print anything to console.</p>
 
 ```
 
@@ -110,7 +110,7 @@ bye acchini
 ```
 
 <h3 align="center">Conditionals</h3>
-<p align="center">Bhailang supports if-else-if ladder construct , <code>agar bhai</code> block will execute if condition is <code>sahi</code>, otherwise one of the subsequently added <code>nahi to bhai</code> blocks will execute if their respective condition is <code>sahi</code>, and the <code>warna bhai</code> block will eventually execute if all of the above conditions are <code>galat</code>
+<p align="center">Acchinilang supports if-else-if ladder construct , <code>acchini aithe</code> block will execute if condition is <code>auvnu</code>, otherwise one of the subsequently added <code>acchini lekapothe</code> blocks will execute if their respective condition is <code>auvnu</code>, and the <code>acchini kakapothe</code> block will eventually execute if all of the above conditions are <code>kaadu</code>
 
 ```
 
@@ -127,7 +127,7 @@ bye acchini
 ```
 
 <h3 align="center">Loops</h3>
-<p align="center">Statements inside <code>jab tak bhai</code> blocks are executed as long as a specified condition evaluates to sahi. If the condition becomes <code>galat</code>, statement within the loop stops executing and control passes to the statement following the loop. Use <code>bas kar bhai</code> to break the loop and <code className="language-cpp">agla dekh bhai</code> to continue within loop.</p>
+<p align="center">Statements inside <code>eppativarkaithe acchini</code> blocks are executed as long as a specified condition evaluates to auvnu. If the condition becomes <code>kaadu</code>, statement within the loop stops executing and control passes to the statement following the loop. Use <code>chaalu acchini</code> to break the loop and <code className="language-cpp">tarvatha chudu acchini</code> to continue within loop.</p>
 
 
 ```
