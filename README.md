@@ -8,7 +8,7 @@
   
 </p>
 <p align="center">
-  This is official repository for acchini-lang.<br><br>
+  This is official repository for acchini-lang (shamelessly copied from bhai-lang).<br><br>
   <b>Bhai lang is a toy programming language written in Typescript.</b>
 </p>
 <br>
@@ -21,11 +21,7 @@ npm i -g bhailang
 
 <h2 align="center">Usage</h2>
 
-<h4 align="left">Create a new file (<code>test.bhai</code>)</h4>
-
-
-<h4 align="left">Edit the file with a text editor.
-You can also try out your code on <a href="https://bhailang.js.org/#playground">Bhai Lang PlayGround</a></h4>
+<h4 align="left">Create a new file (<code>test.acchini</code>)</h4>
 
 ```
 hi acchini
